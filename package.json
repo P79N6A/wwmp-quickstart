@@ -1,0 +1,17 @@
+{
+  "name": "wwmp",
+  "version": "1.0.0",
+  "description": "企业微信小程序基础框架库",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "http://git.code.oa.com/pageek/wwmp.git"
+  },
+  "precommit.silent": true,
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-wework-style": "^1.1.4",
+    "stylelint": "^8.0.0"
+  }
+}

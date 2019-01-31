@@ -1,0 +1,10 @@
+<view class="page">
+  <navigatebar style="height:53px;" list="{{navigateList}}" bind:menuchange="onBindMenuChange"></navigatebar>
+  <swiper class='mainSwiper' current="{{currentPage}}" bindchange='onChangeSwiper' duration="300">
+    <block wx:for="{{navigateList}}" wx:for-index="idx">
+      <swiper-item>
+        <cell corps="{{corpsList[idx]}}" type="{{item.key == '0' ? 'grid' : 'list'}}"></cell>
+      </swiper-item>
+    </block>
+  </swiper>  
+</view>

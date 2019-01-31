@@ -1,0 +1,12 @@
+page {
+    height: 100%;
+}
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.mainSwiper {
+    flex: 1;
+}

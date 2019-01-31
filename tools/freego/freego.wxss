@@ -1,0 +1,31 @@
+page{
+    background:#FFF;
+}
+
+.freego{
+    padding:20rpx;
+    margin:20rpx;
+    border:1rpx solid #7d7d7d;
+    min-height:1000rpx;
+}
+
+.freego-item_env{
+    line-height:50rpx;
+    height:50rpx;
+    vertical-align:middle;
+    font-size:28rpx;
+    color:#7d7d7d;
+    padding:10rpx;
+}
+
+.checked{
+    background-color:#02B4A9;
+    color:#FFF;
+}
+
+.debug{
+    padding:20rpx;
+    margin:20rpx;
+    font-size:28rpx;
+    color:#7d7d7d;
+}

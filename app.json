@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/index/index",
+    "tools/freego/freego"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4B77B0",
+    "navigationBarTitleText": "wwmp",
+    "navigationBarTextStyle": "#fff"
+  }
+}
